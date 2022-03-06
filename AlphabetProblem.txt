@@ -1,0 +1,14 @@
+function nonRepeated(str) {
+    for(i = 0; i < str.length; i++) {
+       let j = str.charAt(i)
+       //repeated alphabets will return null 
+       if (str.indexOf(j) == str.lastIndexOf(j)) {
+          console.log(j)
+         return j;
+         
+       }
+    }
+    return null;
+ }
+ 
+ nonRepeated("calculate");

@@ -1,0 +1,12 @@
+var Count = 5;
+for ( i = 1; i <= Count; i++) {
+    // assiginig i to initialValue
+    var initialValue = i;
+    for ( j = 1; j <= i; j++) {
+    //printing the value of initialValue
+        console.log(value +  "");
+    //reassigning the intial value
+        initialValue += Count - j;
+    }
+    console.log("");
+}
